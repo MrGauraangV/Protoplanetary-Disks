@@ -135,8 +135,8 @@ params = (
     f"$z_f$ = {zf / AU:.2f} AU\n"
     f"$f$ = {f:.3f}\n"
     f"$T_0$ = {T0:.0f} K\n"
-    f"$p_law$ = {p_law:.1f} \n"
-    f"$t_law$ = {t_law:.1f}"
+    f"$P-law$ = {p_law:.1f} \n"
+    f"$T-law$ = {t_law:.1f}"
 )
 
 ax.text(
@@ -147,7 +147,7 @@ ax.text(
     fontsize=10,
     verticalalignment="top",
     horizontalalignment="right",
-    bbox=dict(
+    bbox=dict( # type: ignore
         boxstyle="round,pad=0.4",
         facecolor="white",
         edgecolor="black",
