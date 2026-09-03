@@ -113,13 +113,13 @@ for s0_mm in initial_sizes:
         s,
         label=f"$s_0$ = {s0_mm:g} mm"
     )
-    """
+    
     ax.loglog(
          r / AU,
          s_simplified,
          "--"
      )
-     """
+     
 
 ax.set_xlabel("Radius [AU]")
 ax.set_ylabel("Particle size $s$ [mm]")
